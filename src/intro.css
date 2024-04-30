@@ -1,0 +1,31 @@
+
+:root {
+    --blue: rgb(59 130 246 / .5);
+    --white: #ffffff;
+  }
+
+.introduction{
+    min-height: 90vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.intro-heading{
+    color: #42446E;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.intro-name{
+    font-size: 3rem; /* Example font size */
+    font-weight: bold; /* Bold text */
+    background-image: linear-gradient(to right, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+}
+.intro-image{
+    width: 100%;
+  }

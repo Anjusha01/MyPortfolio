@@ -1,0 +1,16 @@
+.resume-container{
+    min-height: unset;
+}
+.view-btn, .download-btn {
+    font-size: 1.5rem;
+    color: #282020;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #13B0F5, #E70FAA);
+    border-radius: 20px !important;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-right: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}

@@ -1,0 +1,28 @@
+.card-container {
+    border-radius: 25px !important; /* Set border radius for the card */
+}
+
+.image-fit-cover {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.fullscreen-modal {
+    min-width: 80vw;
+    margin: 0;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+
+.fullscreen-modal .modal-content {
+    min-height: 90vh;
+    /* Optional: removes the border radius if you want the modal to cover the entire viewport corner to corner */
+}
+.listitem{
+    font-size: .9rem;
+    font-weight: 400;
+}
+.fwbold{
+    font-weight: 600;
+}
+

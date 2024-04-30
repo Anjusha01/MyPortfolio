@@ -1,0 +1,21 @@
+.contact-email{
+    font-size: 3rem; /* Example font size */
+    font-weight: bold; /* Bold text */
+    background-image: linear-gradient(to right, #13B0F5, #E70FAA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+}
+.contact-heading{
+   color: #1E0E62; 
+  font-size: 3rem;
+  font-weight: 600;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Set height to 100% of viewport height */
+  }

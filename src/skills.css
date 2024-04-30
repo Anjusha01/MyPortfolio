@@ -1,0 +1,23 @@
+.skill-card {
+    padding: 20px;
+    text-align: center;
+    width: 120px; /* Adjust based on your layout needs */
+    margin: 10px;
+  }
+  
+  .icon-container {
+    width: 100%; /* Full width of the parent */
+    height: 80px; /* Fixed height for all icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensures no overflow of images */
+  }
+  
+  .icon-container img {
+    max-width: 100%;
+    max-height: 100%; /* Makes sure images don't exceed container size */
+    object-fit: contain; /* Ensures the image is fully visible within the container */
+  }
+  
+  

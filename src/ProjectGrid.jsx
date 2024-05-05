@@ -40,13 +40,13 @@ const data = [
 function ProjectGrid({ onCardClick}) {
     return (
            
-        <Row>
+        <div className='d-flex flex-wrap justify-content-between '>
             {data.map((item) => (
-                <Col sm={12} md={6} lg={4} key={item.id}>
+                //  key={item.id}
                     <ProjectCard {...item} onCardClick={() => onCardClick(item)} />
-                </Col>
+                
             ))}
-        </Row>
+        </div>
         
     );
 }

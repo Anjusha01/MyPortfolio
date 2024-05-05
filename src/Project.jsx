@@ -21,7 +21,7 @@ function Project({ align = 'text-start', title = 'My Projects', subTitle = 'Thin
     };
 
     return (
-        <Container className="p-5">
+        <Container className="p-3">
              <div className={align}>
                 <h1 className='heading'>{title}</h1>
                 <h6 className='sub-heading'>{subTitle}</h6>

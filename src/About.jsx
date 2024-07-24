@@ -4,6 +4,7 @@ import Education from './Education';
 
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import Experience from './Experience';
+import { ExternalLink } from 'react-external-link';
 
 function About() {
 
@@ -13,13 +14,14 @@ function About() {
             <div>
                 <h1 className='heading'>About Me</h1>
                 <div className='py-3 mb-5'>
-                    My name's Jane. I'm a web designer and developer based in Southampton, UK.
-                    During the day I work as a lead developer at 
-                    a local agency and in the evening I work on freelance 
-                    projects and utilize the time to build my own products. 
-                    I spent my leisure hours writing articles and poetry. 
-                    Right now I'm also trying a hand at machine learning and AI. 
-                    I love to learn and explore new arenas.
+                I am an IT graduate with expertise in full-stack web development, 
+                proficient in C, C++, Java, HTML, CSS, JavaScript, and Bootstrap. 
+                I have hands-on experience with MERN stack development and a strong
+                 foundation in computer science. I hold an MSc in Computer Science 
+                 from Pondicherry University and am currently interning as a MERN Stack Developer 
+                 at Softroniics. I'm passionate about learning new technologies and solving problems. 
+                 Connect with me on <ExternalLink href="www.linkedin.com/in/anjusha-k-a4653022a" className=''>LinkedIn</ExternalLink>
+                   and view my projects on <ExternalLink href="https://github.com/Anjusha01" className=''>GitHub</ExternalLink>.
                 </div>
             </div>
             {/* <Experience/> */}
